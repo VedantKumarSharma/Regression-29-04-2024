@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>L3CategoriesInFlyout_HP</name>
+   <tag></tag>
+   <elementGuidId>cbf17631-c460-4504-8ef7-9dd6e13ec85f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@data-submenu-id='CAT610036']//ul[@class='m-desktop-subcategory-list']//div[@class='a-thrd-catTitle'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.m-desktop-subcategory-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>7e5f7ca2-9e86-4742-b7fd-3375e7894b26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-desktop-subcategory-list</value>
+      <webElementGuid>cc4999b3-3812-480b-b03b-5c1ef106f081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Chamarras Abrigos &amp; Chalecos   Suéteres &amp; Sudaderas   Blusas   Tallas Especiales   Ver más +  </value>
+      <webElementGuid>89650b48-d2e4-40fc-a5ff-3fc3b2ec7039</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CAT610036&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row align-items-top&quot;]/div[@class=&quot;col-lg-8 category-menu&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4 pb-3&quot;]/ul[@class=&quot;m-desktop-subcategory-list&quot;]</value>
+      <webElementGuid>aa5e6397-b389-4d39-8485-9056adf04f16</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CAT610036']/div/div[2]/div/div/div/ul</value>
+      <webElementGuid>b2364991-b92e-4374-a1c8-cb6707872710</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ropa'])[1]/following::ul[1]</value>
+      <webElementGuid>980894b9-5196-4a84-97d8-eb508801d407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ella'])[2]/following::ul[1]</value>
+      <webElementGuid>53e99086-082f-40de-8426-ad075fae163c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/div/div/div[2]/div/div/div/ul</value>
+      <webElementGuid>0ea65f01-c7e0-47f2-b726-d1e66ba3a47c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = '  Chamarras Abrigos &amp; Chalecos   Suéteres &amp; Sudaderas   Blusas   Tallas Especiales   Ver más +  ' or . = '  Chamarras Abrigos &amp; Chalecos   Suéteres &amp; Sudaderas   Blusas   Tallas Especiales   Ver más +  ')]</value>
+      <webElementGuid>26847520-f97d-44cc-91f9-bb1f676eb4ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
