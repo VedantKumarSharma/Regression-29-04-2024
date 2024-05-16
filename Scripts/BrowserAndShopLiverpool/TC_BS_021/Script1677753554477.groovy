@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
@@ -45,4 +45,3 @@ if (FacetClicked == FacetClicked2) {
 
 WebUI.click(findTestObject('PLPPage/facetes/close_facet_liverpool_PLP'))
 
-WebUI.closeBrowser()

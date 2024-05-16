@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verfiy the user can scroll the images from exterior section by clicking on the image carousel</description>
+   <name>TC_029</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4f70962-dee4-4f76-b071-8bc2752298f3</testCaseGuid>
+</TestCaseEntity>

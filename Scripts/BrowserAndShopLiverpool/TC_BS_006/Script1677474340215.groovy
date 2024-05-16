@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
@@ -33,6 +33,4 @@ L3 = WebUI.getText(findTestObject('HomePage/L3_categoryMenu_HP'))
 WebUI.enhancedClick(findTestObject('HomePage/L3_categoryMenu_HP'))
 
 WebUI.verifyElementText(findTestObject('PLPPage/BreadCrumbCurrentPage_PLP'), L3)
-
-WebUI.closeBrowser()
 

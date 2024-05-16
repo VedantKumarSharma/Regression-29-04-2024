@@ -21,7 +21,7 @@ WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
 WebUI.click(findTestObject('HomePage/username'))
 
-WebUI.setText(findTestObject('HomePage/username'), 'hcheruvu29@digisprint.com')
+WebUI.setText(findTestObject('HomePage/username'), GlobalVariable.username)
 
 WebUI.delay(2)
 
@@ -29,7 +29,7 @@ WebUI.click(findTestObject('HomePage/password'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HomePage/password'), 'Test@12345')
+WebUI.setText(findTestObject('HomePage/password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('HomePage/inciar'))
 

@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.mouseOver(findTestObject('HomePage/CategorasDropDown_HP'))
+WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
 WebUI.mouseOver(findTestObject('HomePage/L1_Category8_HP'))
 
@@ -35,6 +35,4 @@ WebUI.click(findTestObject('CLPPage/SubCategory2_leftmenu_CLP'))
 WebUI.callTestCase(findTestCase('CommonMethods/assertplp'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('PLPPage/BreadCrumbCurrentPage_PLP'), L4)
-
-WebUI.closeBrowser()
 

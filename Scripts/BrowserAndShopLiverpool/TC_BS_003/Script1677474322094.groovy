@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'nat'], FailureHandling.STOP_ON_FAILURE)
 
@@ -49,6 +49,4 @@ WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
 'cart/bag present at top right corner after order 2 items'
 WebUI.verifyElementText(findTestObject('PDPPage/shopCart_HP'), '2')
-
-WebUI.closeBrowser()
 

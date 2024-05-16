@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the cancellation process for the orders placed using home delivery as shipping method and Openpay as payment method for suburbia items</description>
+   <name>TC_003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9507057f-8a85-4a65-a189-307c4ba98e1b</testCaseGuid>
+</TestCaseEntity>

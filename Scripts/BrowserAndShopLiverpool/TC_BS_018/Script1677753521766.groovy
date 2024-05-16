@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
@@ -42,6 +42,4 @@ WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/PreciosTitleFacet_PLP
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/TamanoTitleFacet_PLP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/VendidoTitleFacet_PLP'), 0)
-
-WebUI.closeBrowser()
 

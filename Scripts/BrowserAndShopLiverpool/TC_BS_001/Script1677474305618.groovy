@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
@@ -44,6 +44,4 @@ WebUI.verifyElementText(findTestObject('CLPPage/footer_.com_CLP(dtqab)'), 'MUJER
 if (L1_category == FooterName) {
     System.out.print('correct page')
 }
-
-WebUI.closeBrowser()
 

@@ -19,9 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
-
-WebUI.delay(5)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
@@ -43,6 +41,4 @@ WebUI.verifyElementPresent(findTestObject('SRP page/breadcrumb_plp'), 0)
 WebUI.verifyElementClickable(findTestObject('CLPPage/Left_Current_Page_CLP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('CLPPage/L1_leftmenu_CLP'), L1)
-
-WebUI.closeBrowser()
 

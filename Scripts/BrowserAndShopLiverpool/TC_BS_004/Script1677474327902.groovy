@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/Categoras_hp'))
 
@@ -37,6 +37,4 @@ breadcrumb_PLP = WebUI.getText(findTestObject('PLPPage/BreadCrumbCurrentPage_PLP
 WebUI.verifyElementText(findTestObject('PLPPage/BreadCrumbCurrentPage_PLP'), breadcrumb_PLP)
 
 WebUI.verifyElementClickable(findTestObject('PLPPage/BreadCrumbCurrentPage_PLP'))
-
-WebUI.closeBrowser()
 

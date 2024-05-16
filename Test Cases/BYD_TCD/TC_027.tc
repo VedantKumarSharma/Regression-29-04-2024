@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of BYD PDP</description>
+   <name>TC_027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf4065f5-1dbd-4c47-af27-b6fec800bfa2</testCaseGuid>
+</TestCaseEntity>

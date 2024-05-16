@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verfiy system allows the user to select the car brands by selecting the checkbox</description>
+   <name>TC_120</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0b23179-b7b8-4337-9635-dabbdc31c99b</testCaseGuid>
+</TestCaseEntity>

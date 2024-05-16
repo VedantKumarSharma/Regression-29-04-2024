@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>L3CategoriesInFlyout_HP</name>
+   <tag></tag>
+   <elementGuidId>cbf17631-c460-4504-8ef7-9dd6e13ec85f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>((//li[@class='m-megamenu__category  m-megamenu__category_div-wrapper'])[1]//div[@class='a-thrd-catTitle'][1])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.m-desktop-subcategory-list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>c46221dc-89ab-4626-86d1-826c903f1e73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-desktop-subcategory-list</value>
+      <webElementGuid>0a8117b3-9a06-4a5c-9fa9-5f5754881fe1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Chamarras Abrigos &amp; Chalecos   Suéteres &amp; Sudaderas   Blusas   Tallas Especiales   Ver más +  </value>
+      <webElementGuid>06b73383-f403-42fb-9272-f491d343cb0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CAT610036&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row align-items-top&quot;]/div[@class=&quot;col-lg-8 category-menu&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4 pb-3&quot;]/ul[@class=&quot;m-desktop-subcategory-list&quot;]</value>
+      <webElementGuid>ed92f31e-55da-4257-b493-ef70cf99181b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CAT610036']/div/div[2]/div/div/div/ul</value>
+      <webElementGuid>3f606394-7b41-41c0-8730-e4b84c6e9df8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ropa'])[1]/following::ul[1]</value>
+      <webElementGuid>01cfccad-61c2-4087-be8f-3c6e66be3a86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ella'])[2]/following::ul[1]</value>
+      <webElementGuid>c1be9b0b-b8ee-40a6-a5bc-8ffe0dae4b87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/div/div/div[2]/div/div/div/ul</value>
+      <webElementGuid>0b15b14c-2bd4-4ac8-bbe2-4e22503d6a87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = '  Chamarras Abrigos &amp; Chalecos   Suéteres &amp; Sudaderas   Blusas   Tallas Especiales   Ver más +  ' or . = '  Chamarras Abrigos &amp; Chalecos   Suéteres &amp; Sudaderas   Blusas   Tallas Especiales   Ver más +  ')]</value>
+      <webElementGuid>7f1a4d21-e3f3-4fc4-842f-96ae6b772003</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

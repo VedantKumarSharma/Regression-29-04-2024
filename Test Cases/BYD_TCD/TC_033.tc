@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the user can view the previous &amp; next information by clicking on the pre &amp; next buttons on exterior car info popup</description>
+   <name>TC_033</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9a3b818-3b96-4d5b-bf2c-d273825c0ba0</testCaseGuid>
+</TestCaseEntity>

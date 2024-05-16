@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>The system should redirect the user to the login page</description>
+   <name>TC_055</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bca49ef-7704-47d4-a27f-30ad30ba6262</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the cancellation process for the orders placed using click and collect as shipping method and Paypal as payment method for suburbia items</description>
+   <name>TC_004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba6100ee-7d14-43ca-9f24-25afb11af0fe</testCaseGuid>
+</TestCaseEntity>

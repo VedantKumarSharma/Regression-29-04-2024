@@ -3,7 +3,7 @@
    <description></description>
    <name>EndToEnd</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'hcheruvu29@digisprint.com'</initValue>

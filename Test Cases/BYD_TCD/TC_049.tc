@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the functionality of ver ubacion en mapas button</description>
+   <name>TC_049</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0e5c8b2-9d50-4d29-b9df-849ecdb8d54e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verfiy the system will display the showrooms which has Active indicator flag is true</description>
+   <name>TC_047</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2a53318-6556-4c91-9058-4525634dcfbd</testCaseGuid>
+</TestCaseEntity>

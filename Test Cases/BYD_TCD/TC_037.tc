@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the user can view the previous &amp; next information by clicking on the pre &amp; next buttons on interior car info popup</description>
+   <name>TC_037</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a600cbc3-00d4-49ce-8f69-949140a35897</testCaseGuid>
+</TestCaseEntity>

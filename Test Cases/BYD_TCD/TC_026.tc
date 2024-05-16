@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the system redirection to BYD PDP when user clicks on the banner on BYD home</description>
+   <name>TC_026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9de8ba90-6417-4549-9c57-8687372553c3</testCaseGuid>
+</TestCaseEntity>

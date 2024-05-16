@@ -6,15 +6,16 @@
    <elementGuidId>bbe8b216-436e-4a86-8f46-f4b1fcea414f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//li[@class='m-megamenu__category']//div//span)[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.a-dekstop__categoryLink > div.row > div.col-lg-10</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@class='m-megamenu__category  m-megamenu__category_div-wrapper'])[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d8e8718d-9862-4339-b772-e2a70d7e26a6</webElementGuid>
+      <webElementGuid>bbe4d1e3-3a74-4a02-9a0b-a1fa73126b4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-lg-10</value>
-      <webElementGuid>ea20a80b-134b-446c-b5f0-10ff828be9a9</webElementGuid>
+      <webElementGuid>e92d716a-814f-4fca-91a1-ea297f4c4ac4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mujer</value>
-      <webElementGuid>9f1cc1e9-10e1-4bd8-ad8b-166ed4a276db</webElementGuid>
+      <webElementGuid>201d9255-2213-404c-8dbe-ec00dbf54aa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header&quot;]/div[@class=&quot;o-container__fluid container-fluid wrap-megamenu d-none d-lg-block&quot;]/div[@class=&quot;o-container container p-0&quot;]/nav[@class=&quot;m-megamenu&quot;]/div[@class=&quot;o-row row align-items-center&quot;]/div[@class=&quot;o-col col-lg-10 col-xl-9 pr-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col col-lg-auto col-6 order-lg-1 text-center&quot;]/div[@class=&quot;o-navDesktop&quot;]/ul[@class=&quot;m-navDesktop__menuList&quot;]/li[@class=&quot;m-navDesktop__section pt-2 pb-2 mr-xl-5&quot;]/ul[@class=&quot;dropdown-menu m-megamenu__dropdown m-megamenu_dropdown_open&quot;]/div[1]/div[1]/li[@class=&quot;m-megamenu__category&quot;]/a[@class=&quot;a-dekstop__categoryLink&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10&quot;]</value>
-      <webElementGuid>980128b7-33c7-4cfb-8e45-12c19c834ee1</webElementGuid>
+      <webElementGuid>0819a519-b114-4d5c-8931-14bad7b7f30a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/header/div[4]/div[3]/div/nav/div/div/div/div/div/ul/li/ul/div/div/li/a/div/div</value>
-      <webElementGuid>9264a1ca-f854-4598-92af-39eb14bc4e5f</webElementGuid>
+      <webElementGuid>ddb8e59f-73d7-4603-8af8-ecf451293a74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Categorías'])[1]/following::div[4]</value>
-      <webElementGuid>768ea153-84bf-45e5-acff-0e18960cd2e1</webElementGuid>
+      <webElementGuid>5e3a0c5a-b6bf-411f-a80a-aa33846dc62e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Iniciar sesión'])[1]/following::div[13]</value>
-      <webElementGuid>b4b9ed30-3aa0-4962-8942-a687b1a6245b</webElementGuid>
+      <webElementGuid>3d733103-6e6c-46b4-bf81-2a01a11a07d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mujer'])[2]/preceding::div[2]</value>
-      <webElementGuid>36a5594c-6819-4fb2-adc2-e27b24e3ffe1</webElementGuid>
+      <webElementGuid>8c4802b0-2273-4b58-bdda-89c275f834a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div/div</value>
-      <webElementGuid>db5b1d18-25d7-48ea-b29f-b7afa51c36b0</webElementGuid>
+      <webElementGuid>7ae3480e-3116-4528-bcb2-0940563da62c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Mujer' or . = 'Mujer')]</value>
-      <webElementGuid>51b3a2ac-d0df-47cd-b9e1-e7eb15f92473</webElementGuid>
+      <webElementGuid>f9ad7ea5-bcdd-493a-b45d-42dec69bc0e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

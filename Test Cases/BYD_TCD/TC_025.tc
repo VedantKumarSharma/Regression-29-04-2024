@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify the display of ayuda/help page when user click on Aviso de privcidad on footer</description>
+   <name>TC_025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34bdc331-f7f3-47ce-9b9c-795d70dcacc8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>breadCrumb_clp</name>
+   <tag></tag>
+   <elementGuidId>3dcc4c55-5aed-4f71-9dc0-f114fabe0d15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='m-breadcrumb']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.m-breadcrumb</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a9fd03f0-c75b-40e4-a33b-22a30083739f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-breadcrumb</value>
+      <webElementGuid>2d2154df-2fdc-4cee-9279-3c0402823bb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Home   Mujer   Zapatos </value>
+      <webElementGuid>438712eb-828a-4816-ace5-d9394aed66bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;min-vh-100&quot;]/main[1]/div[@class=&quot;container-fluid o-main-container p-0 o-clp-secondaryContainer&quot;]/div[@class=&quot;container o-container__secondary&quot;]/div[1]/div[@class=&quot;row d-none d-lg-block m-row-bootstrap&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row p-0&quot;]/div[@class=&quot;m-breadcrumb&quot;]</value>
+      <webElementGuid>30edda05-679a-47ad-90b7-f99c8ed9c88d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>6e67a5b5-219c-44eb-ab53-107321cf5448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona tu tienda'])[2]/following::div[13]</value>
+      <webElementGuid>e1dad23c-c26f-4a7b-88df-b407a4b48d6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona tu tienda'])[1]/following::div[16]</value>
+      <webElementGuid>e7a7f37b-b180-471a-ab9c-7a58dfff7ed8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>b742ddeb-acbb-464a-bf11-81214e3ad90b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '  Home   Mujer   Zapatos ' or . = '  Home   Mujer   Zapatos ')]</value>
+      <webElementGuid>64cc8ff7-32cd-41a5-8865-e60228303c93</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

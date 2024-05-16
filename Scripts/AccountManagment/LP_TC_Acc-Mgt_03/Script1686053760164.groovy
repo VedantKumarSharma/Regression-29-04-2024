@@ -28,4 +28,3 @@ WebUI.click(findTestObject('AccountManagement/ForgotPassword_Account'), FailureH
 WebUI.verifyElementPresent(findTestObject('AccountManagement/ForgotPasswordPage_Account'), 0)
 
 WebUI.closeBrowser()
-

@@ -6,15 +6,16 @@
    <elementGuidId>7f7ba8ad-6dbc-4caf-bc96-8c921699ea0b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='col-xs-2 col-sm-3 col-md-3 col-lg-3 MisComprasProductImage'])[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.col-xs-2.col-sm-3.col-md-3.col-lg-3.MisComprasProductImage > figure.MisCompImgWidth.MisCompProdImgWidth > img.a-order__product__image</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class='MisComprasProductImage'])[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>9c0ded9e-6f98-418c-9326-326fa5f8c9fd</webElementGuid>
+      <webElementGuid>40881466-f51f-4b4f-bda8-84fc25019506</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>loading</name>
       <type>Main</type>
       <value>lazy</value>
-      <webElementGuid>44931d75-1ef8-44bb-8ef0-79fb9733688a</webElementGuid>
+      <webElementGuid>6ff3ce42-267e-4419-b169-48c3b00fe7bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://ss237.liverpool.com.mx/sm/1111964187.jpg</value>
-      <webElementGuid>367338fd-10a9-4ea0-9380-7323cbfd9062</webElementGuid>
+      <webElementGuid>382f0cff-75d0-475f-95c8-109c4344849a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>ZAPATO DOCKERS D2122, 28 CM, CHOCOLATE</value>
-      <webElementGuid>803643c8-f8be-45f5-ab2d-c0deac4a236d</webElementGuid>
+      <webElementGuid>d1e4f09b-20ec-4e08-b3b7-75fe69670932</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-order__product__image</value>
-      <webElementGuid>9133ed95-456b-4e5e-b4fa-42399d94a4ff</webElementGuid>
+      <webElementGuid>06fe56a8-4c05-49d0-a73e-7d2813861a72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid o-main-container p-0&quot;]/div[@class=&quot;container o-container__secondary&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/div[@class=&quot;col-lg-9 m-column_mainContent&quot;]/div[@class=&quot;MisComprasContainer d-none d-lg-block desktop&quot;]/div[3]/div[@class=&quot;col-xs-2 col-sm-3 col-md-3 col-lg-3 MisComprasProductImage&quot;]/figure[@class=&quot;MisCompImgWidth MisCompProdImgWidth&quot;]/img[@class=&quot;a-order__product__image&quot;]</value>
-      <webElementGuid>69df82fe-13a7-4f70-870a-90b73d256d7b</webElementGuid>
+      <webElementGuid>624f7138-4235-490d-a1db-f4cf7942dece</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div[3]/div[2]/div[4]/div[3]/div/figure/img</value>
-      <webElementGuid>4ad641f4-cf11-4012-8678-76fdd51c883c</webElementGuid>
+      <webElementGuid>6fa841be-b823-4d71-a549-6b2163ef1c5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>(//img[@alt='ZAPATO DOCKERS D2122, 28 CM, CHOCOLATE'])[2]</value>
-      <webElementGuid>36fc72fb-a340-4d12-bb87-e4a884daa011</webElementGuid>
+      <webElementGuid>4e7ab322-1592-4bed-b6c1-c7242d919df4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/figure/img</value>
-      <webElementGuid>211527fb-de0d-4dad-9ccc-0e84a457144a</webElementGuid>
+      <webElementGuid>decb9bb7-5a18-435b-8d04-dc5de21ffc42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://ss237.liverpool.com.mx/sm/1111964187.jpg' and @alt = 'ZAPATO DOCKERS D2122, 28 CM, CHOCOLATE']</value>
-      <webElementGuid>b852ce96-cee8-45f8-b0ae-a38ed2bf795e</webElementGuid>
+      <webElementGuid>43ffdb54-dab2-408c-a12b-90ab2f5c4d9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

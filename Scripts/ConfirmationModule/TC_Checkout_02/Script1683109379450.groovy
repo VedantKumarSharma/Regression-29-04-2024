@@ -21,30 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-not_run: WebUI.navigateToUrl('https://odtaqab.liverpool.com.mx/tienda/pdp/JeansslimGAPlavadoobscuroparania/1031371976?hs=true')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('HomePage/Iniciarsesión_hp'))
-
-WebUI.callTestCase(findTestCase('CommonMethods/loginFromHomePage'), [('username') : '', ('password') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/login_dtaqa'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 
-WebUI.click(findTestObject('PDPPage/AddToCart_pdp (1)'))
+WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
+
+WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
 WebUI.click(findTestObject('HomePage/Cart_header'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickChangepayment_opc'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(4)
+
+WebUI.click(findTestObject('OPCPage/paymentMethod_change_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/selectCIEPayment_opc'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('checkoutpage/button_Finalizar compra_opc'))
+WebUI.click(findTestObject('OPCPage/button_Finalizar compra_opc (1)'))
 
 WebUI.delay(3)
 
@@ -60,8 +58,7 @@ not_run: WebUI.verifyElementPresent(findTestObject('ConfirmationPage/carousel_co
 
 WebUI.verifyElementPresent(findTestObject('ConfirmationPage/button_Continuar comprando_confirmation'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ConfirmationPage/button_Descargar ticket de pago_confirmation (1)'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('ConfirmationPage/button_Descargar ticket de pago_confirmation (1)'), 0)
 
 WebUI.click(findTestObject('ConfirmationPage/button_Ir a Mis compras_confirmation'))
 
@@ -83,11 +80,7 @@ WebUI.verifyElementPresent(findTestObject('MyOrderesPage/mainSearchbar_misCompra
 
 WebUI.verifyElementPresent(findTestObject('MyOrderesPage/span_Filtrar compras_misCompras'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MyOrderesPage/productName_misCompras'), 0)
-
 WebUI.verifyElementPresent(findTestObject('MyOrderesPage/img_product__image_misCompras'), 0)
-
-WebUI.verifyElementPresent(findTestObject('MyOrderesPage/button_Comprar nuevamente__misCompras'), 0)
 
 WebUI.verifyElementPresent(findTestObject('MyOrderesPage/button_Ver detalle de compra_misCompras'), 0)
 

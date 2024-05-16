@@ -4,9 +4,12 @@
    <name>LiverpoolRepo</name>
    <tag></tag>
    <UUID>c6a297d2-d216-4d8c-a444-ce87562deff1</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\Projects\LiverpoolRegression\LiverpoolRepo.prj</projectFileLocation>
+   <projectFileLocation>D:\github\GR\Regression-29-04-2024\LiverpoolRepo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

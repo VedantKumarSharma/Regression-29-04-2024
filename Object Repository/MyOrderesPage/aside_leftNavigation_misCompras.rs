@@ -6,15 +6,16 @@
    <elementGuidId>c152b237-1dbe-4ced-82af-46ca29f01f41</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//aside</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>aside.col-lg-3.pr-4.m-aside__content</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='asideAcount d-none d-lg-flex align-items-start flex-column']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>aside</value>
-      <webElementGuid>dd5525cb-e686-4be4-a1bb-8b038ffe3947</webElementGuid>
+      <webElementGuid>bec70a52-2708-4b70-a054-b68ded991daf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-lg-3 pr-4 m-aside__content</value>
-      <webElementGuid>7251bfae-cda8-4ad6-b31b-bbd19149e918</webElementGuid>
+      <webElementGuid>200f8883-0a97-4ddb-a3e2-0ff13960f851</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mis ComprasWishlistCuponesCrédito y Pagos  Mi crédito    Facturación Electrónica    Monedero digital    Mis formas de pago  Datos de mi cuenta  Actualizar Datos Personales    Direcciones de Entrega          Te Escuchamos</value>
-      <webElementGuid>9c7bfbb3-fb21-4da7-90ca-116e819bd6d5</webElementGuid>
+      <webElementGuid>e2228277-8399-4974-9dba-b6ce608efda6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid o-main-container p-0&quot;]/div[@class=&quot;container o-container__secondary&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/aside[@class=&quot;col-lg-3 pr-4 m-aside__content&quot;]</value>
-      <webElementGuid>6040e384-d071-4ed4-8a51-6ad110dcf9de</webElementGuid>
+      <webElementGuid>630ebdab-baa0-4fc6-9139-e38a6dfd3a23</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div/div[3]/aside</value>
-      <webElementGuid>4e94ccc7-4aef-45e1-9a2e-655183f27fa4</webElementGuid>
+      <webElementGuid>a78d5ff8-b915-4299-b8ce-724b580f7276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Compras'])[4]/following::aside[1]</value>
-      <webElementGuid>03d05fdf-a71c-483e-af41-788e18e1cd04</webElementGuid>
+      <webElementGuid>d29c2620-19e5-4b7c-8a67-c5267e35a257</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi Cuenta'])[3]/following::aside[1]</value>
-      <webElementGuid>73ff3e79-d960-4f0a-af10-945fc51b70a0</webElementGuid>
+      <webElementGuid>47e828a7-50f2-4535-8de3-8913b4a35fef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//aside</value>
-      <webElementGuid>eefe8684-86ad-4630-ba4e-7e6b3163ec79</webElementGuid>
+      <webElementGuid>6af10e8d-acce-49b4-8899-618650ee46e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//aside[(text() = 'Mis ComprasWishlistCuponesCrédito y Pagos  Mi crédito    Facturación Electrónica    Monedero digital    Mis formas de pago  Datos de mi cuenta  Actualizar Datos Personales    Direcciones de Entrega          Te Escuchamos' or . = 'Mis ComprasWishlistCuponesCrédito y Pagos  Mi crédito    Facturación Electrónica    Monedero digital    Mis formas de pago  Datos de mi cuenta  Actualizar Datos Personales    Direcciones de Entrega          Te Escuchamos')]</value>
-      <webElementGuid>14e4eefd-2263-4960-b074-31bf7cb1bcdd</webElementGuid>
+      <webElementGuid>1b540a7f-e586-4028-bb12-bcc152d85120</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
