@@ -30,7 +30,7 @@ a = WebUI.getText(findTestObject('smoke Suit/PLPPage/Facet_Seller_liverpool_titl
 
 WebUI.click(findTestObject('smoke Suit/PLPPage/facetes/Facet_Seller_liverpool_PLP'), FailureHandling.STOP_ON_FAILURE)
 
-b = WebUI.getText(findTestObject('smoke Suit/PLPPage/facetes/selectedfacet1_PLP'))
+b = WebUI.getText(findTestObject('BLPPage/breadCrumb_blp'))
 
 System.out.println(a)
 
@@ -39,8 +39,6 @@ System.out.println(b)
 if (a.contains(b)) {
     System.out.println('facet selected')
 } else {
-    WebUI.acceptAlert()
-
     KeywordUtil.markFailed('failed facet not selected')
 }
 
