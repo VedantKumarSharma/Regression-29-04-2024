@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('HomePage/Categoras_hp'))
 
-WebUI.click(findTestObject('HomePage/L1_hp'))
+WebUI.click(findTestObject('HomePage/L1_Category1_HP'))
 
 WebUI.click(findTestObject('CLPPage/SubCategory3_leftmenu_CLP'))
 

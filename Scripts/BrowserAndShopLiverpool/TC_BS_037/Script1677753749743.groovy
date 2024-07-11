@@ -23,7 +23,11 @@ WebUI.scrollToPosition(0, 350)
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'laptop'], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePage/Buscar1'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('HomePage/Buscar1'), 'Laptop')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('SRP page/firstProductImage_srp'))
 
@@ -40,7 +44,9 @@ WebUI.verifyElementPresent(findTestObject('PDPPage/quantityPlus_stickbar_pdp'), 
 WebUI.enhancedClick(findTestObject('PDPPage/quantityPlus_stickbar_pdp'), FailureHandling.STOP_ON_FAILURE)
 
 B = WebUI.getAttribute(findTestObject('Object Repository/PDPPage/quantity_value_PDP'), 'value')
+
 System.out.print(A)
+
 System.out.print(B)
 
 assert A < B

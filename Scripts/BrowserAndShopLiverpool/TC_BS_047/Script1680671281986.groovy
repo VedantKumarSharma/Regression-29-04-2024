@@ -28,7 +28,7 @@ WebUI.click(findTestObject('HomePage/Categoras_hp'))
 
 WebUI.mouseOver(findTestObject('HomePage/L1_Category4_HP'))
 
-WebUI.enhancedClick(findTestObject('HomePage/L3_el_lentes_HP'))
+WebUI.enhancedClick(findTestObject('HomePage/L3_Autoasientos_HP'))
 
 WebUI.verifyElementText(findTestObject('HomePage/L3_Verify_hp'), 'Lentes')
 

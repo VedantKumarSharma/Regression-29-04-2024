@@ -6,13 +6,14 @@
    <elementGuidId>f066bbc8-65e1-4ac4-a116-6c984f634d6d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@class='col-lg-4 pb-3']//a[@class='a-desktop__subcategoryTitle subcategoryLevel-3'])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>((//div[@class='m-megamenu__category_menu-item'])[1]//div[@class=&quot;a-thrd-catTitle&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

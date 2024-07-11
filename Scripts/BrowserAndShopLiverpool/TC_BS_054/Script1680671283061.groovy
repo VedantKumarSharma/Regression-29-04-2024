@@ -26,17 +26,13 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.click(findTestObject('HomePage/Categoras_hp'))
 
-WebUI.click(findTestObject('HomePage/L1_hp'))
-
-not_run: WebUI.click(findTestObject('PLPPage/Product_plp'))
-
-not_run: WebUI.callTestCase(findTestCase('CommonMethods/BrowseAndNavigate_plp'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePage/L1_Category1_HP'))
 
 WebUI.click(findTestObject('CLPPage/SubCategory1_leftmenu_CLP'))
 
 WebUI.click(findTestObject('CLPPage/SubCategory1_leftmenu_CLP'))
 
-WebUI.verifyElementPresent(findTestObject('PLPPage/Descuentos_plp'), 0)
+WebUI.verifyElementPresent(findTestObject('smoke Suit/PLPPage/facetes/DescontousTitleFacet_PLP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/Marcas_plp'), 0)
 
@@ -48,7 +44,7 @@ WebUI.verifyElementPresent(findTestObject('PLPPage/Precios_plp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/Calificacin_plp'), 0)
 
-WebUI.verifyElementPresent(findTestObject('PLPPage/Vendido por_plp'), 0)
+WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/VendidoTitleFacet_PLP'), 0)
 
 WebUI.closeBrowser()
 

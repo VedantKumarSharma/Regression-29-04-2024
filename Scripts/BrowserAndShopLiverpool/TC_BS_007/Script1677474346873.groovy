@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
-WebUI.mouseOver(findTestObject('HomePage/L1_Category1_HP'))
+WebUI.mouseOver(findTestObject('HomePage/L1_Category2_HP'))
 
 L3 = WebUI.getText(findTestObject('HomePage/L3_category_2_HP'))
 

@@ -26,7 +26,7 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.click(findTestObject('HomePage/Categoras_hp'))
 
-WebUI.click(findTestObject('HomePage/L1_hp'))
+WebUI.click(findTestObject('HomePage/L1_Category1_HP'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/PLPPage/mainBanner_plp'), 0)
 

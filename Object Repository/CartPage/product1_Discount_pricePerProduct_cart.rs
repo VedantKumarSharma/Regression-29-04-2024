@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sortby_PLP</name>
+   <name>product1_Discount_pricePerProduct_cart</name>
    <tag></tag>
-   <elementGuidId>e523222d-ea27-4dc0-82f4-7b2b87533463</elementGuidId>
+   <elementGuidId>2daf56f2-2ea1-4a5d-929c-7775fa93cec4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@class='col-lg-4 col-xl-3 mb-4 pr-2 pl-0']//a[@class='btn dropdown-toggle sortBy']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@class='o-myBag__column--priceContainer undefined']//p)[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

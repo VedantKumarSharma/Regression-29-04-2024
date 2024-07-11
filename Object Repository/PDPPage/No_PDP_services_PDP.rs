@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>pop up come after clicking of add to cart button</description>
-   <name>AddedToCart_alert_message_PDP</name>
+   <description></description>
+   <name>No_PDP_services_PDP</name>
    <tag></tag>
-   <elementGuidId>14e9c7f8-761e-48ed-9c3d-fee789850d01</elementGuidId>
+   <elementGuidId>fd625970-d915-4ba3-8c45-f2443c09d8f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class=' m-mdc__snackbarLabel mdc-snackbar__label'])[2]</value>
+         <value>(//div[@class='m-radio  mdc-radio mdc-ripple-upgraded mdc-ripple-upgraded--unbounded'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

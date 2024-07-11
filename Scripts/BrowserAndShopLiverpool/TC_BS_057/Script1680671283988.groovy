@@ -23,13 +23,9 @@ WebUI.navigateToUrl(GlobalVariable.URL2)
 
 WebUI.click(findTestObject('HomePage/Store_Location_hp'))
 
-WebUI.selectOptionByValue(findTestObject('SLPPage/select_AGUASCALIENTESBAJA CALIFORNIABAJA CA_5addf3'), 'MÉXICO', 
-    true)
+WebUI.selectOptionByValue(findTestObject('SLPPage/select_AGUASCALIENTESBAJA CALIFORNIABAJA CA_5addf3'), 'MÉXICO', true)
 
-WebUI.selectOptionByValue(findTestObject('SLPPage/select_LiverpoolDuty FreeCentros Comerciales'), 'Liverpool', 
-    true)
-
-WebUI.acceptAlert()
+WebUI.selectOptionByValue(findTestObject('SLPPage/select_LiverpoolDuty FreeCentros Comerciales'), 'Liverpool', true)
 
 WebUI.closeBrowser()
 

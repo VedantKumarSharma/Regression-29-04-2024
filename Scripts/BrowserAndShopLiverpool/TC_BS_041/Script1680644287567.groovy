@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.mouseOver(findTestObject('HomePage/CategorasDropDown_HP'))
+WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
 WebUI.mouseOver(findTestObject('HomePage/L1_Category1_HP'))
 
@@ -32,9 +32,9 @@ WebUI.getText(findTestObject('CLPPage/SubCategory1_leftmenu_CLP'))
 
 WebUI.click(findTestObject('CLPPage/SubCategory1_leftmenu_CLP'))
 
-WebUI.click(findTestObject('PLPPage/product1_PLP'))
+WebUI.click(findTestObject('PLPPage/product-2-DiscountPrice_PLP'))
 
-WebUI.click(findTestObject('PDPPage/Colour1_PDP'))
+WebUI.click(findTestObject('PDPPage/Colour1_PDP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)
 

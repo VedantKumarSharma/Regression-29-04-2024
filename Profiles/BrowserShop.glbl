@@ -3,10 +3,10 @@
    <description></description>
    <name>BrowserShop</name>
    <tag></tag>
-   <defaultProfile>false</defaultProfile>
+   <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
+      <initValue>'https://dtaqa.liverpool.com.mx'</initValue>
       <name>URL2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hcheruvu29@digisprint.com'</initValue>
+      <initValue>'chenna4@mailinator.com'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test@12345'</initValue>
+      <initValue>'Chenna@123'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -86,12 +86,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'hcheruvu29@digisprint.com'</initValue>
+      <initValue>'chenna4@mailinator.com'</initValue>
       <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test@12345'</initValue>
+      <initValue>'Chenna@123'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -256,53 +256,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpBTParentWithVariantsSLGifts2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentBTGiftSlOOS</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentBTGiftBT</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentBTandGiftBTWithVariants</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'65153475'</initValue>
       <name>gwpParentBTandGiftBTbothOOS</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentSLgiftBT</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentSLOOSgiftBTinstock</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentSLgiftBTbothInstock</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentSLgiftBTOOS</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'add'</initValue>
-      <name>gwpParentSLandGiftBTbothOOS</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -361,7 +316,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>sl product with sl gift </description>
-      <initValue>'1031371976'</initValue>
+      <initValue>'1031372221'</initValue>
       <name>SLpSlgift</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -468,5 +423,15 @@
       <description></description>
       <initValue>'1030507670'</initValue>
       <name>SLProductNew</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Boss'</initValue>
+      <name>HATs</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'lisa'</initValue>
+      <name>colour</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

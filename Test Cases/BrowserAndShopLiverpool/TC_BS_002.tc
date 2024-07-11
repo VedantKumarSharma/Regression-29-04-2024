@@ -4,5 +4,6 @@
    <name>TC_BS_002</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>463a2b4f-4436-41da-a025-3c499a25ee7e</testCaseGuid>
 </TestCaseEntity>

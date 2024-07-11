@@ -28,6 +28,8 @@ WebUI.setText(findTestObject('PDPPage/quantity_value_PDP'), '999')
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/gwpRegaloLabel_pdp'), 0)
 
+WebUI.click(findTestObject('PDPPage/No_PDP_services_PDP'))
+
 WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/inventoryMessageforGWP_pdp'), 0)

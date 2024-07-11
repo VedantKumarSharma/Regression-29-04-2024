@@ -3,7 +3,7 @@
    <description></description>
    <name>Smoke</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://dtaqa.liverpool.com.mx/'</initValue>

@@ -23,7 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('HomePage/L1Category_HP (1)'))
+WebUI.click(findTestObject('HomePage/l1Category_hp'))
 
 'this is category chosen from left menu'
 SubCategory = WebUI.getText(findTestObject('CLPPage/SubCategory1_leftmenu_CLP'))

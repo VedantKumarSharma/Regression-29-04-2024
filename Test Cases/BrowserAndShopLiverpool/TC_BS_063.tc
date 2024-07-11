@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>&quot;CLP Carrusel Banner
+   <description>&quot;CLP Carrusel Banner&#xd;
 defectID-5137&quot;</description>
    <name>TC_BS_063</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2e282230-c646-4b6f-a314-155227a82a39</testCaseGuid>
 </TestCaseEntity>

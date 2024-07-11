@@ -10,9 +10,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> (//div[@class=&quot;m-search-suggestion-product mb-3&quot;])[1]</value>
+         <value> (//div[@class=&quot;m-search-suggestion-product card-sayt&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

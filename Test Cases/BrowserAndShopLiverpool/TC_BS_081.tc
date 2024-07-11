@@ -4,5 +4,6 @@
    <name>TC_BS_081</name>
    <tag>gwp</tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>3aeb3d35-6c98-4dfb-a2ea-c27e42918e24</testCaseGuid>
 </TestCaseEntity>

@@ -26,6 +26,8 @@ WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.gwpWithGiftsOOS], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
+
 WebUI.verifyElementPresent(findTestObject('PDPPage/gwpRegaloLabel_pdp'), 0)
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickAddToCart'), [:], FailureHandling.OPTIONAL)

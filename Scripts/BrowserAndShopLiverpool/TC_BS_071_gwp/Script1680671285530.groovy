@@ -24,11 +24,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.click(findTestObject('Object Repository/HomePage/Seach_TextBox_hp'))
-
-WebUI.setText(findTestObject('Object Repository/HomePage/Seach_TextBox_hp'), 'regalu')
-
-WebUI.click(findTestObject('Object Repository/HomePage/Search_Button_hp'))
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'regalo'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/SLPPage/a_regalu'), 0)
 

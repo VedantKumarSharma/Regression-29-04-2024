@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'vase'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.HATs], FailureHandling.STOP_ON_FAILURE)
 
 String discountpricePLP = WebUI.getText(findTestObject('PLPPage/product-2-DiscountPrice_PLP'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -46,11 +46,11 @@ WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
 WebUI.click(findTestObject('PDPPage/shopCart_HP'))
 
-String discountpricecart = WebUI.getText(findTestObject('PDPPage/DiscountPriceInCart_PDP'), FailureHandling.STOP_ON_FAILURE)
+String discountpricecart = WebUI.getText(findTestObject('CartPage/product1_Discount_pricePerProduct_cart'), FailureHandling.STOP_ON_FAILURE)
 
 def discountpricecart1 = removeDollar(discountpricecart)
 
-String cardpricecart = WebUI.getText(findTestObject('PDPPage/cardPriceInCart_PDP'), FailureHandling.STOP_ON_FAILURE)
+String cardpricecart = WebUI.getText(findTestObject('CartPage/product1_pricePerProduct_cart'), FailureHandling.STOP_ON_FAILURE)
 
 def cardpricecart1 = removeDollar(cardpricecart)
 

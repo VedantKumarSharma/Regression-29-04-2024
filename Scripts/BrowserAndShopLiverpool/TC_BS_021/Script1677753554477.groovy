@@ -23,11 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.click(findTestObject('HomePage/CategorasDropDown_HP'))
 
-WebUI.click(findTestObject('HomePage/L1_Category1_HP'))
+WebUI.click(findTestObject('HomePage/L1_Category2_HP'))
 
 WebUI.click(findTestObject('CLPPage/SubCategory2_leftmenu_CLP'))
 
-WebUI.click(findTestObject('CLPPage/SubCategory3_leftmenu_CLP'))
+WebUI.click(findTestObject('CLPPage/SubCategory2_leftmenu_CLP'))
 
 'facet to check clicked\r\n'
 FacetClicked = WebUI.getText(findTestObject('PLPPage/facetes/Facet_liverpool_PLP'))

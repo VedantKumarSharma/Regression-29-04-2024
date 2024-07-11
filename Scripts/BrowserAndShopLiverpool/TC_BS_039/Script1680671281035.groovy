@@ -22,7 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL2)
+WebUI.navigateToUrl(GlobalVariable.LiverPoolURL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'MAC'], FailureHandling.STOP_ON_FAILURE)
 

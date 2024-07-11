@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>HighToLowPriceSortby_PLP</name>
+   <name>L3_Autoasientos_HP</name>
    <tag></tag>
-   <elementGuidId>7e47325f-87b7-4357-b1f4-4d82c24fd6be</elementGuidId>
+   <elementGuidId>de402177-cfe3-4823-9026-20d5b70f5466</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@class='col-lg-4 col-xl-3 mb-4 pr-2 pl-0']//div[@class='dropdown-menu show']//button[contains(text(),'Mayor precio')]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li//a[contains(text(),&quot;Autoasientos&quot;)])[2]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

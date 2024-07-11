@@ -6,13 +6,14 @@
    <elementGuidId>369cb1fd-88f0-4f18-a449-563038164df3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//p[@class='a-product__paragraphDiscountPrice m-0 d-inline ']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//p[@class='a-product__paragraphDiscountPrice m-0 d-inline']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

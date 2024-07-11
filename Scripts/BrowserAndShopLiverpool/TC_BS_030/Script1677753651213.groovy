@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'blusa'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.colour], FailureHandling.STOP_ON_FAILURE)
 
 'check of clickablity of colour swatch'
 WebUI.verifyElementClickable(findTestObject('PLPPage/product-1-colour2_PLP'), FailureHandling.STOP_ON_FAILURE)

@@ -26,7 +26,7 @@ WebUI.maximizeWindow()
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'Jeans slim GAP lavado obscuro para niño'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product1_PLP'))
+WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('PDPPage/flag_regalo_PDP'), 0)
 

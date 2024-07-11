@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL2)
 
-WebUI.setText(findTestObject('HomePage/MainSearchbar_HP'), 'vase')
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.HATs], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/searchButtton_HP'))
-
-WebUI.click(findTestObject('PLPPage/Sortby_PLP'))
+WebUI.click(findTestObject('smoke Suit/PLPPage/Sortby_PLP'))
 
 WebUI.click(findTestObject('PLPPage/LowPricetoHighSortBy_PLP'))
 

@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class='a-dekstop__categoryLink']//span)[1]</value>
+         <value>(//div[@class='m-megamenu__category_menu-item'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>b693547c-b1f4-4816-bf90-17bb58d032b2</webElementGuid>
+      <webElementGuid>a88fdc93-8aef-43af-8804-0e77fafb8552</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1678033965677</value>
-      <webElementGuid>4e13558a-8f4a-4e51-b732-fd9d14a43670</webElementGuid>
+      <webElementGuid>a1b29f83-67bc-42b8-8caa-19f26f72da62</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
